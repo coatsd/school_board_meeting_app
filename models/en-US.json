@@ -1,0 +1,50 @@
+{
+	"interactionModel": {
+		"languageModel": {
+			"invocationName": "school board meeting",
+			"intents": [
+				{
+					"name": "AMAZON.CancelIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.HelpIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.StopIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.FallbackIntent",
+					"samples": []
+				},
+				{
+					"name": "NextMeetingIntent",
+					"samples": [
+						"when is my next school board meeting",
+						"school board meeting near me",
+						"next school board meeting",
+						"when is the next school board meeting",
+						"school board meeting"
+					]
+				},
+				{
+					"name": "LocationIntent",
+					samples: [
+						"Springfield Oregon",
+						"Eugene Oregon"
+					]
+				},
+				{
+					"name": "TestapiIntent",
+					"samples": [
+						"Test database connection",
+						"Test database",
+						"Test API"
+					]
+				}
+			]
+		}
+	}
+}
